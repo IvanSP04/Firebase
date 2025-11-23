@@ -5,6 +5,7 @@ import mostrarRegistro from './src/componentes/registro.js';
 import mostrarHome from './src/componentes/home.js';
 import mostrarOriginal from './src/componentes/Original.js';
 import mostrarLogout from './src/componentes/logout.js';
+import './style.css'
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
